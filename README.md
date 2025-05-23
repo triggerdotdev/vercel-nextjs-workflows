@@ -1,2 +1,3 @@
-# vercel-nextjs-workflows
-An example repo of a Next.js Trigger.dev project with GitHub actions that deploy and archive preview branches automatically
+# Auto-deploy GitHub actions with preview branches
+
+This is example project uses GitHub actions to deploy Trigger.dev preview branches for each PR and archives them when the PR is closed/merged.
