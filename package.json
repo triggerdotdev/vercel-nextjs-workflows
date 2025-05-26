@@ -4,19 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && npx trigger.dev@0.0.0-re2-20250526171351 deploy --env preview -a https://matt-webapp.trigger.dev --self-hosted",
+    "build": "next build && npx trigger.dev@0.0.0-re2-20250526175311 deploy --env preview -a https://matt-webapp.trigger.dev --self-hosted",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "0.0.0-re2-20250526171351",
+    "@trigger.dev/sdk": "0.0.0-re2-20250526175311",
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@trigger.dev/build": "0.0.0-re2-20250526171351",
+    "@trigger.dev/build": "0.0.0-re2-20250526175311",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
