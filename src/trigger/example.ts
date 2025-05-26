@@ -6,6 +6,7 @@ export const helloWorldTask = task({
   maxDuration: 300, // Stop executing after 300 secs (5 mins) of compute
   run: async (payload, { ctx }) => {
     logger.log("Hello, world!", { payload, ctx });
+    logger.log("proces.env", { env: process.env });
 
     await wait.for({ seconds: 5 });
 
