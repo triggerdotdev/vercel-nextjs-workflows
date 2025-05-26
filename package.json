@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "^0.0.0-re2-20250523160855",
+    "@trigger.dev/sdk": "0.0.0-re2-20250526171351",
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@trigger.dev/build": "^0.0.0-re2-20250523160855",
+    "@trigger.dev/build": "0.0.0-re2-20250526171351",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
