@@ -5,20 +5,20 @@
   "scripts": {
     "dev": "trigger dev",
     "deploy": "trigger deploy",
-    "build": "next build && npx trigger.dev@0.0.0-re2-20250602111405 deploy --env $VERCEL_ENV -a https://test-cloud.trigger.dev",
+    "build": "next build && npx trigger.dev@4.0.0-v4-beta.19 deploy --env $VERCEL_ENV -a https://test-cloud.trigger.dev",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "0.0.0-re2-20250602111405",
+    "@trigger.dev/sdk": "4.0.0-v4-beta.19",
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@trigger.dev/build": "0.0.0-re2-20250602111405",
-    "trigger.dev": "0.0.0-re2-20250602111405",
+    "@trigger.dev/build": "4.0.0-v4-beta.19",
+    "trigger.dev": "4.0.0-v4-beta.19",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
