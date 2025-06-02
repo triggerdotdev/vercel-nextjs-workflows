@@ -21,6 +21,6 @@ jobs:
         run: npm ci
 
       - name: Deploy to Preview Environment
-        run: npx trigger.dev@0.0.0-re2-20250526171351 deploy --env preview -a https://test-cloud.trigger.dev --self-hosted
+        run: npx trigger.dev@0.0.0-re2-20250602094243 deploy --env preview -a https://test-cloud.trigger.dev --self-hosted
         env:
           TRIGGER_ACCESS_TOKEN: ${{ secrets.TRIGGER_ACCESS_TOKEN }}
