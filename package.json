@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "trigger dev",
     "deploy": "trigger deploy",
-    "build": "next build && npx trigger.dev@0.0.0-re2-20250602094243 deploy --env preview -a https://test-cloud.trigger.dev",
+    "build": "next build && npx trigger.dev@0.0.0-re2-20250602094243 deploy --env $VERCEL_ENV -a https://test-cloud.trigger.dev",
     "start": "next start",
     "lint": "next lint"
   },
