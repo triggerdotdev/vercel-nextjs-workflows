@@ -10,8 +10,8 @@ export const helloWorldTask = task({
     logger.log(
       `This is the ${
         ctx.environment.branchName
-          ? `${ctx.environment.branchName} branch`
-          : `${ctx.environment.type} environment`
+          ? `${ctx.environment.branchName} branch.`
+          : `${ctx.environment.type} environment.`
       }`
     );
 
